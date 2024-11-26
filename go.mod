@@ -35,6 +35,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
+replace github.com/pion/rtp v1.8.7 => github.com/tubzby/rtp v1.8.7-h265
+
 // SCTP ZeroChecksum implementation has a interoperability bug
 // 3.2.28 can only work against itself, not other versions of webrtc
 retract v3.2.28
